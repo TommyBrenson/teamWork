@@ -14,7 +14,7 @@ const theme = createTheme({
         main: '#f5f5dc'
       },
       secondary: {
-        main: '#100C08'
+        main: '#100C08',
       }
     },
 
@@ -26,7 +26,7 @@ const theme = createTheme({
         'fontWeight': 300,
       },
       button: {
-        'fontWeight': 300,
+        'fontWeight': 400,
       },
     },
     transitions: {

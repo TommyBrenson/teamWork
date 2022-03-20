@@ -26,16 +26,14 @@ const Header = () => {
                 <Container maxWidth = 'xl'>
                     <Toolbar disableGutters
                     sx = {{
-                        border: '1px solid red',
-                        
                         display: 'flex',
                         flexGrow: '1',
                         alignItems: 'center',
                         justifyContent: 'space-evenly'
                     }}>
                         <Box sx={{ flexGrow: 1, width: '60vh', display: { xs: 'block', md: 'flex' }, justifyContent: 'space-evenly', alignItems: 'center'}}>
-                            <Link sx = {typoStyle} variant = "button" underline = "none" href = "#">Цели</Link>
-                            <Link sx = {typoStyle} variant = "button" underline = "none" href = "#">Инструменты</Link>
+                            <Link sx = {typoStyle} variant = "button" underline = "none" href = "#goals">Цели</Link>
+                            <Link sx = {typoStyle} variant = "button" underline = "none" href = "#tools">Инструменты</Link>
                             <Link sx = {typoStyle} variant = "button" underline = "none" href = "#">О нас</Link>
                         </Box>
                         <Box sx = {{ flexGrow: 1 }}>
@@ -49,7 +47,7 @@ const Header = () => {
                         <Box sx={{ flexGrow: 1, width: '60vh', display: { xs: 'block', md: 'flex' }, justifyContent: 'space-evenly', alignItems: 'center'}}>  
                             <Link sx = {typoStyle} variant = "button" underline = "none" href = "#">Поиск</Link>
                             <Link sx = {typoStyle} variant = "button" underline = "none" href = "#">Вход/Регистрация</Link>
-                            <Link sx = {typoStyle} variant = "button" underline = "none" href = "#">О нас</Link>
+                            <Link sx = {typoStyle} variant = "button" underline = "none" href = "#">FAQ</Link>
                         </Box>
                     </Toolbar>
                 </Container>

@@ -1,6 +1,7 @@
 
 import Header from '../components/Header/Header';
 import Main from '../components/Main/Main';
+import Footer from '../components/Footer/Footer';
 import { Container } from '@mui/material';
 
 const Home = () => {
@@ -8,6 +9,7 @@ const Home = () => {
         <Container disableGutters maxWidth = 'xl'>
             <Header />
             <Main />
+            <Footer />
         </Container>
     )
 }
