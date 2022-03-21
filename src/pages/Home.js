@@ -6,7 +6,7 @@ import { Container } from '@mui/material';
 
 const Home = () => {
     return(
-        <Container disableGutters maxWidth = 'xl'>
+        <Container disableGutters maxWidth = 'false'>
             <Header />
             <Main />
             <Footer />
