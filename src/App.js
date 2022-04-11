@@ -1,5 +1,8 @@
 import Home from "./pages/Home";
 import { createTheme, ThemeProvider } from '@mui/material/styles';
+import { useAuth } from './services/hooks/useAuth/';
+import { useNavigate } from 'react-router-dom';
+import AppRoutes from './routes/Routes';
 
 const theme = createTheme({
     components: {
@@ -47,9 +50,13 @@ const theme = createTheme({
 });
 
 function App() {
+  const auth = useAuth();
+  const navigate = useNavigate();
   return (
     <ThemeProvider theme={theme}>
-      <Home />
+      <AppRoutes>
+        <Home />
+      </AppRoutes>
     </ThemeProvider>
   );
 }
